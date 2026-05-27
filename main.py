@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 import matplotlib.pyplot as plt
 
-url = "owid-covid-data.csv"
+url = "https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv"
 covid_df = pd.read_csv(url)
 
 # Selecting important columns
